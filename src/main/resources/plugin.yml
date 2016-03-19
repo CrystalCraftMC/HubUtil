@@ -1,0 +1,37 @@
+name: HubUtil
+version: 3.0
+description: Set and force a hub spawn location on your lobby server (formerly known as HubUtil).
+authors: [Whomp54, jflory7]
+website: https://github.com/CrystalCraftMC/HubUtil
+main: com.justinwflory.hubutil.HubUtil
+
+commands:
+  sethub:
+    description: Sets the hub spawn location.
+    aliases: [sh, setlobby]
+    permission: hub.set
+    usage: Syntax error! Stand where you want to set the spawn and run `/sethub`.
+  hub:
+    description: Teleport to the hub spawn location.
+    aliases: [gh, gohub]
+    permission: hub.use
+
+permissions:
+  hub.notsilent:
+    description: Prevents the players from disappearing in the hub
+    default: op
+  hub.reload:
+      description: Reloads the configuration file
+      default: op
+  hub.set:
+      description: Sets the hub spawn point
+      default: op
+  hub.talk:
+    description: Allows player to talk when hub is set to silent
+    default: op
+  hub.tpdelay.ignore:
+    description: Ignores the teleportation delay on anyone with permissions
+    default: op
+  hub.use:
+      description: Allows you to type /hub
+      default: true

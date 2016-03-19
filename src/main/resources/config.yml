@@ -1,0 +1,26 @@
+# HubUtil configuration file
+# Authored by: Justin W. Flory <jflory7>
+#
+# For reporting issues, please use the GitHub project page for filing issues.
+#     https://github.com/CrystalCraftMC/HubUtil
+#
+
+# Geographic data for the hub spawn location. Recommended to use in-game commands to edit these. Edit at your own risk.
+world: world
+x: 0
+y: 100
+z: 0
+pitch: 0
+yaw: 0
+
+# Whether there should be a delay when someone tries going to the hub
+tpdelay: false
+
+# How long the teleportation delay should take (in seconds)
+tpdelaytime: 3
+
+# Whether you want your players to go to spawn on connect
+hub-on-connect: true
+
+# Whether you want your hub to have silenced chat
+silent-hub: false
