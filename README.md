@@ -1,4 +1,4 @@
-# HubUtils
+# HubUtils [![Build Status](https://travis-ci.org/CrystalCraftMC/HubUtil.svg?branch=master)](https://travis-ci.org/CrystalCraftMC/HubUtil)
 
 The swiss army knife of hub management for people who have never run a hub before
 
